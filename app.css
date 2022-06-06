@@ -45,6 +45,7 @@ h2 {
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #03a9f4;
+    transition: transform 0.5s;
 
 }
 
@@ -54,4 +55,7 @@ h2 {
 
 #SAT{
     background-color: #d32f2f;
+}
+.Destino:hover h2{
+        transform: rotate(0deg);
 }
